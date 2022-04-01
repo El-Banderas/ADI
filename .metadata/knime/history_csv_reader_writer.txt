@@ -1,0 +1,2 @@
+knime://LOCAL/WineQT.csv
+knime://LOCAL/healthcare-dataset-stroke-data.csv

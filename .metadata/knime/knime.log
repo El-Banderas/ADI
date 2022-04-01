@@ -1,0 +1,132 @@
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2022-03-30 19:58:10,044 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2022-03-30 19:59:19,204 : WARN  : Worker-0: Downloading statistics for node recommendations. :  : WorkflowCoachView :  :  : Could not update node recommendations statistics.
+java.io.IOException: Downloaded file doesn't contain node recommendation data.
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.checkDownloadedFile(AbstractFileDownloadTripleProvider.java:190)
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.update(AbstractFileDownloadTripleProvider.java:169)
+	at org.knime.workbench.workflowcoach.prefs.UpdateJob.run(UpdateJob.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-30 20:00:15,951 : WARN  : KNIME-Worker-4-Statistics 3:4 :  : Node : Statistics : 3:4 : Maximum number of unique possible values (1000) exceeds for column(s): "Id"
+2022-03-30 20:00:19,653 : WARN  : KNIME-Worker-5-Statistics 3:3 :  : Node : Statistics : 3:3 : Maximum number of unique possible values (1000) exceeds for column(s): "id"
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2022-04-01 11:29:30,414 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2022-04-01 11:31:51,898 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2022-04-01 11:34:29,241 : WARN  : KNIME-Worker-5-Statistics 0:5:3 :  : Node : Statistics : 0:5:3 : Maximum number of unique possible values (1000) exceeds for column(s): "id"
+2022-04-01 11:38:21,389 : WARN  : main :  : Node : Linear Correlation : 0:5:5 : Auto configuration: Using all suitable columns (in total 12)
+2022-04-01 11:58:22,875 : WARN  : KNIME-Worker-13-String To Number 0:5:8 :  : AbstractStringToNumberNodeModel : String To Number : 0:5:8 : Values in 201 cells could not be parsed, first error: 'N/A' (RowKey: Row1, Position: 9)
+2022-04-01 11:58:22,902 : WARN  : KNIME-Worker-13-String To Number 0:5:8 :  : Node : String To Number : 0:5:8 : Problems occurred, see Console messages.
+2022-04-01 11:58:23,049 : WARN  : KNIME-Worker-15-Statistics 0:5:10 :  : Node : Statistics : 0:5:10 : Maximum number of unique possible values (1000) exceeds for column(s): "id"
+2022-04-01 12:03:44,375 : WARN  : main :  : WrappedNodeDialog : Auto-Binner : 0:5:12 : failed to apply settings: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+org.knime.core.node.InvalidSettingsException: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:538)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeDialogPane.normalizeSampleQuantiles(AutoBinnerLearnNodeDialogPane.java:558)
+	at org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeDialogPane.saveSettingsTo(AutoBinnerLearnNodeDialogPane.java:500)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	... 16 more
+2022-04-01 12:04:07,006 : ERROR : AWT-EventQueue-0 :  : AutoBinnerLearnNodeDialogPane : Auto-Binner : 0:5:12 : Saving intermediate settings failed with IndexOutOfBoundsException
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeDialogPane.normalizeSampleQuantiles(AutoBinnerLearnNodeDialogPane.java:558)
+	at org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeDialogPane.saveSettingsTo(AutoBinnerLearnNodeDialogPane.java:500)
+	at org.knime.core.node.NodeDialogPane.updateFlowVariablesTab(NodeDialogPane.java:1506)
+	at org.knime.core.node.NodeDialogPane.lambda$3(NodeDialogPane.java:866)
+	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(Unknown Source)
+	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(Unknown Source)
+	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-04-01 12:04:40,486 : WARN  : main :  : Node : Numeric Binner : 0:5:13 : No column select for binning.
+2022-04-01 12:06:26,154 : WARN  : KNIME-Worker-21-Statistics 0:5:10 :  : Node : Statistics : 0:5:10 : Maximum number of unique possible values (1000) exceeds for column(s): "id"
+2022-04-01 12:08:07,529 : WARN  : KNIME-Worker-27-String To Number 0:5:8 :  : AbstractStringToNumberNodeModel : String To Number : 0:5:8 : Values in 201 cells could not be parsed, first error: 'N/A' (RowKey: Row1, Position: 8)
+2022-04-01 12:08:07,530 : WARN  : KNIME-Worker-27-String To Number 0:5:8 :  : Node : String To Number : 0:5:8 : Problems occurred, see Console messages.
+2022-04-01 12:10:39,549 : WARN  : KNIME-Worker-35-Statistics 0:4 :  : Node : Statistics : 0:4 : Maximum number of unique possible values (1000) exceeds for column(s): "Id"
+2022-04-01 12:14:16,771 : WARN  : main :  : Node : Numeric Binner : 0:13 : Binner: column "bmi" not found in spec.
+2022-04-01 12:14:41,601 : WARN  : main :  : Node : Numeric Binner : 0:13 : Binner: column "bmi" not found in spec.
+2022-04-01 12:15:25,466 : WARN  : main :  : Node : Numeric Binner : 0:13 : Binner: column "bmi" not found in spec.
+2022-04-01 12:16:54,614 : WARN  : main :  : Node : Numeric Outliers : 0:15 : Auto configuration: Outlier Selection uses all suitable columns (in total 12).
+2022-04-01 12:23:49,591 : WARN  : main :  : Node : Numeric Binner : 0:17 : No column select for binning.
+2022-04-01 12:27:52,717 : WARN  : main :  : Node : Linear Correlation : 0:18 : Auto configuration: Using all suitable columns (in total 13)
+2022-04-01 12:36:09,216 : WARN  : main :  : Node : Linear Correlation : 0:19 : Auto configuration: Using all suitable columns (in total 10)
+2022-04-01 12:36:12,572 : WARN  : KNIME-Worker-63-Linear Correlation 0:19 :  : Node : Linear Correlation : 0:19 : Some numeric column(s) contained missing values: "sulphates", "chlorides", "residual sugar", "pH", <5 more>...
