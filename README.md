@@ -4,7 +4,7 @@ Trabalho realizado na disciplina de Aprendizagem e Decisões Inteligentes, que c
 A preparação e modelação realizada está descrita no relatório.
 
 # Realizado por:
-Diogo Pires
-Gonçalo Soares
-Marco Costa
-Rita Teixeira
+- Diogo Pires
+- Gonçalo Soares
+- Marco Costa
+- Rita Teixeira
